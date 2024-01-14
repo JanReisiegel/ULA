@@ -37,20 +37,26 @@
   - ||_u_ ⊕ _v_||² = (||_u_|| + ||_v_||)²
 
 ## Ortogonalita
-- V unitárním vektorovém prostoru řekneme, že množina *A*={*a<sub>j</sub>*} j≥1 (může být i nekonečná) je ortogonální, pokud pro každé její dva různé vektory *aᵢ* ≠ *aⱼ* je ⟨*aᵢ*|*aⱼ*⟩ = 0
+
+- V unitárním vektorovém prostoru řekneme, že množina _A_={_a<sub>j</sub>_} j≥1 (může být i nekonečná) je ortogonální, pokud pro každé její dva různé vektory _aᵢ_ ≠ _aⱼ_ je ⟨_aᵢ_|_aⱼ_⟩ = 0
 - Podle definice je nulový vektor ortogonální ke všem vektorům, obvykle ho do ortogonálních množin ale nezařazujeme
 
 ### Ortonormalita
+
 - Každá ortogonální množina v unitárním prostoru, která neobsahuje nulový vektor, je lineárně nezávislá
 - Ortogonální množiny v unitárních prostorech jsou vhodnými kandidáy na baze těchto vektorových prostorů
 
 ### Gmaův-Schmidtův algoritmus - ortogonalizace
+
 - Jeden nenulový vektor genetuje vždy ortogonální množinu
-- Chceme vytvořit ortogonální bazi lineárního obalu množiny vektorů *G*
-- Předpokládáme, že jsme s použitím prvních několika vektorů z *G* vytvořili *n*-prvkovou ortogonální množinu *F<sub>n</sub>*
-- Vezmeme ještě nepoužitý vektor *g* ∈ *G* a pokusíme se vytvořit lineární kombinaci vektoru *g* a vektorů z množiny *F<sub>n</sub>* tak, aby byla ortogonální ke všem vektorům z *F<sub>n</sub>*
+- Chceme vytvořit ortogonální bazi lineárního obalu množiny vektorů _G_
+- Předpokládáme, že jsme s použitím prvních několika vektorů z _G_ vytvořili _n_-prvkovou ortogonální množinu _F<sub>n</sub>_
+- Vezmeme ještě nepoužitý vektor _g_ ∈ _G_ a pokusíme se vytvořit lineární kombinaci vektoru _g_ a vektorů z množiny _F<sub>n</sub>_ tak, aby byla ortogonální ke všem vektorům z _F<sub>n</sub>_
 
 ![Ortogonalizace 1](pic/ortogonalizace1.png)
-- V součtu na pravé straně jsou všechny skalární součiny ⟨*fᵢ*|*fⱼ*⟩ nulové s vyjímkou toho, kde *j* = *i*
+
+- V součtu na pravé straně jsou všechny skalární součiny ⟨_fᵢ_|_fⱼ_⟩ nulové s vyjímkou toho, kde _j_ = _i_
 
 ![Ortogonalizace 2](pic/ortogonalizace2.png)
+
+[Determinant ⬅️](./12_Determinant.md) | [➡️ Fourierovy řady](./14_FourierovyRady.md)
