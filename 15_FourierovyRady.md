@@ -12,3 +12,5 @@ Systém funkcí:
 - *c*<sub>0</sub>=1, *c*<sub>*k*</sub>=cos(*k*x), *s*<sub>*k*</sub>=sin(*k*x), pro *k* ∈ *N*
 - tvoří ortogonální bazi prostoru *L*<sub>2</sub>(-π;π) (a i libovolného prostoru *L*<sub>2</sub>(a;a+2π) pro a ∈ *ℝ*) Druhé mocniny norem těchto funkcí jsou:
   - ||*c*<sub>0</sub>||<sup>2</sup> = 2π, ||*c*<sub>*k*</sub>||<sup>2</sup> = ||*s*<sub>*k*</sub>||<sup>2</sup> = π pro *k* ∈ *N*
+
+[Aproximace Vektoru ⬅️](./14_AproximaceVektoru.md) | [➡️ Kombinatorika](./16_Kombinatorika.md)

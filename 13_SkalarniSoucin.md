@@ -59,4 +59,4 @@
 
 ![Ortogonalizace 2](pic/ortogonalizace2.png)
 
-[Determinant ⬅️](./12_Determinant.md) | [➡️ Fourierovy řady](./14_FourierovyRady.md)
+[Determinant ⬅️](./12_Determinant.md) | [➡️ Aproximace Vektoru](./14_AproximaceVektoru.md)

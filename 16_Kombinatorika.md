@@ -115,34 +115,40 @@ Uvažujeme množinu _M_ o _n_ prvcích (|_M_| = _n_)
   5 | 1   5   10  10  5   1   0
   6 | 1   6   15  20  15  6   1
 ```
+
 ![Alt text](pic/kombinatorika12.png)
 
 ### Kombinatorické identity
+
 - Vandermondova identita <br> ![Alt text](pic/kombinatorika13.png)
 
 ### Binomická věta
-- standardní tvar mnohočlenu: *P*(x) = ∑a<sub>j</sub>x<sup>j<sup>
+
+- standardní tvar mnohočlenu: _P_(x) = ∑a<sub>j</sub>x<sup>j<sup>
 - Budeme se teď snažit převést do podobného tvaru výraz: <br> (a + b)<sup>n</sup> = ∑α<sub>jk></sub>a<sup>j</sup>b<sup>k</sup><br> roli proměnné x může hrát třeba symbol b
 - Výsledek bude tvořený součtem součinů symbolů a a b a v každém ze součinu bude součet výskytů symbolu a a symbolu b roven n <br> ![Alt text](pic/kombinatorika14.png)
   - hodnota c<sub>k</sub> popisuje kolika způsoby se dá uvažovaný součin a<sup>k</sup>b<sup>n-k</sup> vytvořit
   - Postupujeme tak, že vytváříme uspořádané n-tice tvořené symboly dvou druhů, první z nich se vyskytuje k-krát a druhý (n-k)-krát <br> ![Alt text](pic/kombinatorika15.png)
 
 Vásledek: <br> ![Alt text](pic/kombinatorika16.png)
+
 - Kombinační čísla se v této souvislosti označují jako binomické koeficienty
 
 ### Zobecněná kombinační čísla
+
 - pro kombinační čísla není stanoveno omezení pro n
 - můžeme tedy za n dosadit libovolné reálné r
 - za k stále nezáporné celé číslo
 - "Prázdný součin" k=0 definujeme jako 1 <br> ![Alt text](pic/kombinatorika17.png)
-- Lze tedy spočítat i hodnoty (n nad k) pro celá záporná n 
+- Lze tedy spočítat i hodnoty (n nad k) pro celá záporná n
   - Rozšířený pascalův trojúhelník:
+
 ```
  n\k| 0   1   2   3   4   5   6
 ---------------------------------
  -3 | 1  -3   6  -10  15 -21  28
  -2 | 1  -2   3  -4   5  -6   7
- -1 | 1  -1   1  -1   1  -1   1 
+ -1 | 1  -1   1  -1   1  -1   1
   0 | 1   0   0   0   0   0   0
   1 | 1   1   0   0   0   0   0
   2 | 1   2   1   0   0   0   0
@@ -150,8 +156,12 @@ Vásledek: <br> ![Alt text](pic/kombinatorika16.png)
   4 | 1   4   6   4   1   0   0
   5 | 1   5   10  10  5   1   0
   6 | 1   6   15  20  15  6   1
-``` 
+```
+
 ![Alt text](pic/kombinatorika18.png)
+
 - Newtonův vzorec <br> ![Alt text](pic/newton1.png)
   - pro libovolné reálné r, pro které existujípotřebné hodnoty b<sup>r-k</sup>, a každé x, pro které |x| < |b|
   - Při práci s tímto vzorcem nesčítáme celou nekonečnou řadu, ale vytváříme její částečné součty<br>![Alt text](pic/newton2.png)
+
+[Fourierovy řady ⬅️](./15_FourierovyRady.md) | [➡️ Posloupnosti](./17_Posloupnosti.md)

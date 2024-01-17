@@ -67,4 +67,4 @@
     - _f_ <sup>-1</sup>(_f_) = _i<sub>D(f)</sub>_
     - _f_ (_f_ <sup>-1</sup>) = _i<sub>W(f)</sub>_
 
-[➡️ Vektorový prostor](./02_VektorovyProstor.md)
+[Grafy ⬅️](./18_Grafy.md) | [➡️ Vektorový prostor](./02_VektorovyProstor.md)

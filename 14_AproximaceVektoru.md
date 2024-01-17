@@ -75,3 +75,6 @@ Pokud je podprostor _V_ konečněrozměrný, můžeme v něm najít bazi _G_ = {
 - rozšiřováním aproximačního podprostoru *V* se aproximace vektoru *u* zpravidla zlepšují, nikdy se nemohou zhoršit
 
 ## Metoda nejmenších čtverců
+
+
+[Skalární součin ⬅️](./13_SkalarniSoucin.md) | [➡️ Fourierovy řady](./15_FourierovyRady.md.md)

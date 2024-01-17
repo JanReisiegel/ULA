@@ -211,3 +211,5 @@ Postup: Hledáme nejkratší cestu z _u_ do _v_
   3. Množina _K_ všech takto nalezených hran bude náležet do množiny hran hledané kostry
   4. Graf _G_<sub>1</sub> dostaneme z G kontrakcí všech hranm z množiny _K_. Porotže přitom mohou "splynout" některé hrany z původního grafu ponecháme v posloupnosti _H_ vždy jenom tu z nich, která se vyskytuje jako první (dostaneme novou poloupnost hran _H_<sub>1</sub>)
   5. Pokud má nový graf _G_<sub>1</sub> více než jeden vrchol, pokračujeme krokem 2 pro graf _G_<sub>1</sub> s posloupností hran _H_<sub>1</sub>
+
+[Posloupnosti ⬅️](./17_Posloupnosti.md) | [➡️ Zobrazení](./01_zobrazeni.md)
